@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var vector = [8,1, 7, 3, 2, 0, 6, 4];
+        var j;
+        var indice = 0;
+        do {
+            if (vector[indice] == 2) {
+                vector.splice(indice, 1, 1, 1);
+            }
+            indice++;
+        } while (indice < vector.length);
+        for (j = 0; j < vector.length; j++) {
+            document.write(vector[j] + ' ');
+        }
+    </script>
+
+</body>
+
+</html>
